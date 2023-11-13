@@ -1,4 +1,7 @@
  
+   
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+   
    /*********************************/
   /***********1.GLOBAL CSS*********/
  /********************************/
@@ -60,7 +63,7 @@ a:hover{
   text-decoration: none;
 }
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #283562;
@@ -74,6 +77,378 @@ img{
   width: 100%;
   height: auto;
 }
+
+p{
+  color: #181930; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%;
+}
+
+.section_padding{
+  padding: 126px 0;
+}
+
+.section_title{
+  color: #3FBFF3; 
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 32px;
+  line-height: 135.938%; /* 87px */
+}
+
+
    /*********************************/
-  /***********2.GLOBAL CSS**********/
+  /***********HEADER CSS**********/
  /********************************/
+
+.logo a img {
+	width: 88px;
+}
+
+.header_area {
+	padding: 25px 0;
+}
+
+.menu ul li a {
+	color: #181930; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover{
+  color: #000;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+   /*********************************/
+  /***********BANNER CSS**********/
+ /********************************/
+
+
+ .banner_area {
+	background: linear-gradient(109deg, #576F86 -22.58%, #CEE6F1 112.29%);
+	padding: 200px 0 227px 0;
+  position: relative;
+}
+
+
+.banner H2 {
+	color: #FFF; 
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.banner P {
+	max-width: 360px;
+	color: #FFF; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 165%;
+	width: 100%;
+  margin: 46px 0 32px 0;
+}
+
+.btn_1 {
+	color: #FFF;
+	text-align: center; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background: #3FBFF3;
+	box-shadow: 0px 12px 48px 0px rgba(0, 0, 0, 0.15);
+	padding: 12px 24px;
+	display: inline-block;
+  transition: 0.3s;
+} 
+
+.btn_2 {
+	color: #FFF;
+	text-align: center; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border: 1px solid #FFF;
+	padding: 12px 24px;
+	display: inline-block;
+  transition: 0.3s;
+}
+
+.btn_1:hover,
+.btn_2:hover{
+  opacity: 0.83;
+	color: #FFF;
+}
+
+.banner_btn {
+	display: flex;
+	gap: 35px;
+	margin-bottom: 46px;
+}
+
+.banner_social ul li a img {
+	width: 24px;
+  transition: 0.3s;
+}
+
+.banner_social ul li a:hover img{
+  transform: scale(1.2);
+}
+
+.banner_social ul {
+	display: flex;
+	gap: 20px;
+}
+
+.banner_item img {
+	width: 100% !important;
+}
+
+.banner_carousel {
+	position: absolute;
+	z-index: 99;
+	bottom: 0;
+	right: 0;
+	width: 70%;
+}
+
+.banner_item {
+	width: 90%;
+	margin: 0 0 0 auto;
+}
+
+
+
+/*********************************/
+/*********** ABOUT CSS**********/
+/********************************/
+
+.about_left p {
+	margin-bottom: 15px;
+}
+
+.about_title h4 {
+	color: #181930; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	text-transform: uppercase;
+}
+
+.about_title {
+	border-bottom: 1px solid #3FBFF3;
+	margin-bottom: 24px;
+	padding-bottom: 10px;
+}
+
+.about_skill ul li img { 
+	width: 24px;
+}
+
+.about_university h3 {
+	color: #181930; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+}
+
+.about_university span {
+	color: #C3D2D9; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.about_university{
+  margin-bottom: 36px;
+}
+
+.about_skill ul li {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+	margin-bottom: 19px;
+}
+
+
+/*********************************/
+/*********** EXPERIENCE CSS**********/
+/********************************/
+
+.experience_area {
+	padding: 84px 0 96px 0;
+} 
+
+.ex_btn_cont h4 {
+	color: #C3D2D9; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 125%;
+}
+
+.ex_btn_cont span,
+.ex_btn_cont p {
+	color: #C3D2D9; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 125%;
+}
+
+.ex_btn {
+	background: transparent;
+	border: none;
+	text-align: left;
+	margin-bottom: 32px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.ex_btn.active .ex_btn_cont span,
+.ex_btn.active .ex_btn_cont h4,
+.ex_btn.active .ex_btn_cont p{
+  color: #181930;; 
+}
+
+.ex_btn.active > span {
+	background: #3FBFF3;
+	position: relative;
+	z-index: 99;
+}
+
+.experiance_button{ 
+  position: relative;
+}
+
+.experiance_button::after {
+	content: '';
+	position: absolute;
+	left: 11px;
+	top: 43px;
+	width: 2px;
+	height: 83%;
+	z-index: 9;
+	background-color: #C3D1D9;
+}
+
+.ex_btn > span {
+	display: inline-block;
+	background: #C3D2D9;
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+}
+
+.experience_content {
+	border-radius: 0px 8px 8px 0px;
+	background: #181930;
+	box-shadow: 0px 12px 48px 0px rgba(0, 0, 0, 0.15);
+	padding: 84px 100px;
+}
+
+.experience_content h2 {
+	color: #FFF; 
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+}
+ 
+.ex_dept h4 {
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+  margin-bottom: 6px;
+}
+
+.ex_dept p {
+	color: #FFF; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.ex_time p {
+	color: #464763; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.ex_cont_box {
+	display: flex;
+	justify-content: space-between;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #3FBFF3;
+}
+
+.ex_main_content {
+	padding: 36px 0;
+}
+
+.ex_main_content p {
+	color: #FFF;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 125%;
+	margin-bottom: 16px;
+}
+
+.ex_next_btn {
+	text-align: right;
+}
+
+.next_ex {
+	color: #FFF; 
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 125%;
+	letter-spacing: 1.2px;
+	background: transparent;
+	border: none;
+}
+
+.ex_cont_id_1,
+.ex_cont_id_2,
+.ex_cont_id_3,
+.ex_cont_id_4,
+.ex_cont_id_5,
+.ex_cont_id_6 {
+  display: none;
+}
+
+.experience_content.active{
+  display: block;
+}
+
+
+/*********************************/
+/*********** HEADER CSS**********/
+/********************************/
