@@ -92,7 +92,7 @@
 
 
 @media all and (max-width: 767px) {
-    .menu { 
+    .menu {
         position: absolute;
         width: 100%;
         left: 0;
@@ -101,6 +101,7 @@
         background: #fff;
         padding: 15px 0 26px 0;
         display: none;
+        border-top: 1px solid #3FBFF3;
     }
     .menu ul { 
         flex-direction: column;

@@ -54,14 +54,14 @@ $(document).ready(function(){
         $('.ex_btn').removeClass('active'); 
         $(this).addClass('active');
         var btn_id = $(this).attr('btn_id');
-        $('.experience_content').fadeOut();
+        $('.experience_content').hide();
         $('.experience_content').removeClass('active');
         $('.ex_cont_id_'+btn_id).fadeIn();   
     });
 
     $(document).on('click','.next_ex',function(){ 
         var next_id = $(this).attr('next_id');   
-        $('.experience_content').fadeOut();
+        $('.experience_content').hide();
         var next_id_val = 1 + parseInt(next_id, 10);  
         if(next_id_val == 7){
             var next_id_val = 1 + 0; 
@@ -75,6 +75,16 @@ $(document).ready(function(){
     $(document).on('click','.mobile_bars',function(){
         $('.menu').slideToggle();
     });
+
+
+    $('.menu ul li a').click(function(){
+
+        $('html,body').animate({
+          scrollTop:$($(this).attr('href')).offset().top
+        },1000);
+    
+        return false;
+      });
 
 
 });
