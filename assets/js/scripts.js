@@ -86,5 +86,15 @@ $(document).ready(function(){
         return false;
       });
 
+    $('.gallery_box').each(function() { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: 'a', // the selector for gallery item
+            type: 'image',
+            gallery: {
+              enabled:true
+            }
+        });
+    });
+
 
 });

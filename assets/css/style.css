@@ -138,14 +138,8 @@ p{
 
  .banner_area {
 	background: linear-gradient(109deg, #576F86 -22.58%, #CEE6F1 112.29%);
-}
-
-.banner_box{ 
-	padding: 200px 0 227px 0; 
-}
-
-.banner_relative{
-	position: relative;
+	padding: 200px 0 227px 0;
+  position: relative;
 }
 
 .banner {
@@ -646,6 +640,11 @@ p{
 /*********** GALLERY CSS**********/
 /********************************/
 
+.single_gallery_item {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+}
 
 .gallery_box {
 	padding-top: 71px;
@@ -653,9 +652,6 @@ p{
 	padding: 71px 60px 0 60px;
 }
 
-.single_gallery_item img {
-	/* width: 260px !important; */
-}
 
 .gallery_carousel{
 	position: relative;
@@ -690,6 +686,35 @@ p{
 .gallery_carousel .owl-next i {
 	color: #fff !important; 
 } 
+
+.gallery_overly {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	background: rgba(0,0,0,0.8);
+	box-shadow: 0px 12px 48px 0px rgba(0, 0, 0, 0.15); 
+	left: 0;
+	top: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.single_gallery_item:hover .gallery_overly{ 
+	top: 0;
+}
+
+.gallery_overly p {
+	color: #FFF;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	max-width: 196px;
+	width: 100%;
+}
 
 
 /*********************************/
