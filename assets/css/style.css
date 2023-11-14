@@ -138,8 +138,14 @@ p{
 
  .banner_area {
 	background: linear-gradient(109deg, #576F86 -22.58%, #CEE6F1 112.29%);
-	padding: 200px 0 227px 0;
-  position: relative;
+}
+
+.banner_box{ 
+	padding: 200px 0 227px 0; 
+}
+
+.banner_relative{
+	position: relative;
 }
 
 .banner {
