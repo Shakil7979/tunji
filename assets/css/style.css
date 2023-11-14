@@ -540,6 +540,10 @@ p{
 	transition: 0.5s;
 }
 
+.single_awards_header {
+	height: 162px;
+}
+
 .single_awards:hover{
 	height: 100%; 
 }
