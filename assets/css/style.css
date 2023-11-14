@@ -142,6 +142,10 @@ p{
   position: relative;
 }
 
+.banner {
+	position: relative;
+	z-index: 9999999;
+}
 
 .banner H2 {
 	color: #FFF; 
