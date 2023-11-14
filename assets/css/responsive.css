@@ -1,0 +1,428 @@
+@media all and (min-width: 1560px) {
+    .banner_item {
+        width: 64%; 
+    }
+}
+
+
+@media all and (max-width: 1400px) {
+    .single_awards h4 { 
+        font-size: 22px; 
+    }
+    .single_awards { 
+        padding: 36px 40px; 
+    } 
+}
+
+@media all and (max-width: 1200px) {
+    .awards_box { 
+        height: 860px;
+    }
+}
+
+@media all and (min-width: 991px){
+    .menu {
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .banner_carousel {
+        position: inherit; 
+        width: 100%;
+    }
+    .banner_area {
+        padding: 150px 0 0 0;
+    }
+    .banner_item {
+        width: 100%; 
+    }
+    .banner H2 { 
+        font-size: 54px; 
+    }
+    .banner P { 
+        font-size: 18px; 
+        margin: 24px 0 26px 0;
+    }
+    .experiance_button {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .experiance_button::after { 
+        display: none;
+    } 
+    .single_awards {
+        padding: 16px 30px;
+    }
+    .single_awards h4 {
+        font-size: 19px;
+    }
+    .single_awards {
+        height: 173px;
+    }
+    .awars_info p {
+        margin-top: 10px; 
+    }
+    .single_awards h4 { 
+        margin-bottom: 10px;
+    }
+    .awars_info p{ 
+        font-size: 14px;  
+    }
+    .testi_designation { 
+        flex-direction: column;
+    }
+    .testi_designation h5 { 
+        flex: 0 0 0;
+    }
+    .footer_mail { 
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer_header > p { 
+        justify-content: center;
+    }
+    .testi_designation ul li p { 
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    .menu { 
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 99px;
+        z-index: 99;
+        background: #fff;
+        padding: 15px 0 26px 0;
+        display: none;
+    }
+    .menu ul { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .mobile_bars{
+        display: block;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile_bars i {
+        color: #3FBFF3;
+        font-size: 25px;
+    }
+    .banner_area {
+        padding: 90px 0 0 0;
+    }
+    .banner H2 {
+        font-size: 35px;
+    }
+    .banner P {
+        font-size: 16px; 
+    }
+    .banner {
+        text-align: center;
+    }
+    .banner P { 
+        margin: 24px auto 26px auto;
+    }
+    .banner_btn { 
+        justify-content: center;
+    }
+    .banner_social ul { 
+        justify-content: center;
+    }
+    .section_title { 
+        font-size: 38px; 
+        margin-bottom: 12px; 
+    }
+    .about_right {
+        margin-top: 25px;
+    }
+    .about_university h3 { 
+        font-size: 20px; 
+    }
+    .about_university {
+        margin-bottom: 22px;
+    }
+    .section_padding {
+        padding: 46px 0;
+    }
+    .ex_btn_cont h4 { 
+        font-size: 18px; 
+    }
+    .ex_btn { 
+        flex: 0 0 46%;
+    }
+    .experience_content { 
+        padding: 35px; 
+    }
+    .experience_content h2 { 
+        font-size: 26px; 
+    }
+    .ex_dept h4 { 
+        font-size: 18px; 
+    }
+    .experience_content { 
+        height: 735px; 
+    }
+    .asset_item h3 { 
+        font-size: 18px; 
+    }
+    .single_assets {
+        margin-bottom: 25px;
+    }
+    .asset_item {
+        margin-top: 25px;
+    }
+    .single_awards {
+        height: 100%; 
+    }
+    .awards_box .row {
+        gap: 25px;
+    }
+    .single_awards {
+        padding: 35px 30px;
+    }
+    .awards_box {
+        height: 100%; 
+        padding: 50px 0; 
+    }
+    .section_padding {
+        padding: 46px 0px 100px 0;
+    }
+    .gallery_box {
+        padding-top: 41px; 
+        padding: 41px 60px 0 60px;
+    }
+    .testi_single_item {
+        margin-bottom: 35px;
+        box-shadow: 0 2px 10px #ddd;
+        padding: 25px 40px;
+    }
+    .testi_single_item p {
+        text-align: center;
+    }
+    .testi_header {  
+        justify-content: center;
+    }
+    .section_title_feature {
+        margin-bottom: 40px;
+    }
+    .testimonial_area {
+        margin-bottom: 40px;
+    }
+    .single_footer_item {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .footer_logo_p { 
+        margin: 16px auto 0 auto;
+    }
+    .single_footer_item ul li a { 
+        margin-bottom: 6px; 
+    }
+    .footer_mail_a { 
+        font-size: 26px; 
+    }
+    .footer_mail .btn_1 {
+        padding: 12px 24px;
+    }
+    .footer_social { 
+        justify-content: center;
+    }
+    .banner_item img {
+        width: 75% !important;
+        margin: 0 auto;
+    }
+    .section_padding {
+        padding: 46px 0px 0 0;
+    }
+    .experience {
+        padding-top: 40px; 
+    }
+}
+
+
+@media all and (max-width:576px) {
+    .logo a img {
+        width: 60px;
+    }
+    .banner H2 {
+        font-size: 28px;
+    }
+    .banner P {
+        margin: 14px auto 36px auto;
+        font-size: 14px;
+    }
+    .banner_btn { 
+        gap: 12px; 
+        flex-direction: column;
+    }
+    .banner_social ul li a img {
+        width: 20px; 
+    }
+    .banner_item img {
+        width: 68% !important;
+        margin: 0 auto;
+    }
+    .section_title {
+        font-size: 28px; 
+    }
+    p { 
+        font-size: 14px; 
+    }
+    .about_title h4 { 
+        font-size: 18px; 
+    }
+    .about_university h3 {
+        font-size: 18px;
+    }
+    .experience_area {
+        padding: 35px 0 45px 0;
+    }
+    .section_title {
+        font-size: 22px;
+    }
+    .ex_btn_cont h4 {
+        font-size: 14px;
+    } 
+    .ex_btn_cont span, .ex_btn_cont p { 
+        font-size: 14px; 
+    }
+    .experiance_button { 
+        gap: 0;
+    }
+    .ex_btn { 
+        margin-bottom: 11px; 
+    }
+    .experience_content { 
+        margin-top: 25px;
+    }
+    .experience_content h2 {
+        font-size: 20px;
+    }
+    .ex_dept h4 {
+        font-size: 16px;
+    }
+    .ex_dept p { 
+        font-size: 14px; 
+    }
+    .ex_time p { 
+        font-size: 14px; 
+    }
+    .ex_main_content p { 
+        font-size: 14px; 
+        margin-bottom: 10px;
+    }
+    .experience_content {
+        height: 650px;
+    }
+    .asset_header h4 { 
+        font-size: 18px; 
+    }
+    .asset_item h3 {
+        font-size: 16px;
+    }
+    .asset_item > span {
+        font-size: 14px;
+    }
+    .single_awards h4 {
+        font-size: 18px;
+    }
+    .awars_info span { 
+        font-size: 14px;
+    }
+    .single_feature_item h4 { 
+        font-size: 16px; 
+        margin: 15px 0 12px 0;
+    }
+    .gallery_area { 
+        margin-top: 110px;
+        padding-bottom: 38px;
+    }
+    .gallery_carousel .owl-prev { 
+        position: inherit; 
+    }
+    .gallery_carousel .owl-next { 
+        position: inherit; 
+    }
+    .testi_single_item {
+        margin-bottom: 25px; 
+    }
+    .footer_area { 
+        padding-top: 60px;
+    }
+    .footer_header > p { 
+        font-size: 14px; 
+    }
+    .footer_header p i { 
+        font-size: 18px;
+    }
+    .footer_mail_a {
+        font-size: 23px;
+    }
+    .btn_1 { 
+        font-size: 14px; 
+    }
+    .footer_logo_p { 
+        font-size: 14px; 
+    }
+    .single_footer_item ul li a { 
+        font-size: 14px; 
+    }
+    .single_footer_item h4 { 
+        margin-bottom: 12px;
+    }
+    .footer_social li a i {
+        font-size: 20px;
+    }
+    .copy_right_footer { 
+        flex-direction: column;
+        gap: 12px;
+    }
+    .copy_right_footer ul { 
+        gap: 3px; 
+        flex-direction: column;
+    }
+    .footer_box {
+        padding: 20px 0; 
+    }
+    .btn_2 { 
+        font-size: 14px; 
+    }
+    .ex_btn_cont span, .ex_btn_cont p { 
+        display: none;
+    }
+    .ex_btn > span { 
+        display: none;
+    }
+    .menu { 
+        top: 85px; 
+    }
+    .menu ul li a { 
+        font-size: 14px; 
+    }
+    .menu ul { 
+        gap: 10px;
+    }
+}
+
+
+@media all and (max-width:450px) {
+    .experience_content {
+        height: 710px;
+    }
+    .single_footer_item a img {
+        width: 75px;
+    }
+}
