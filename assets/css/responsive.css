@@ -2,6 +2,9 @@
     .banner_item {
         width: 64%; 
     }
+    .container{
+        max-width: 1140px;
+    }
 }
 
 
