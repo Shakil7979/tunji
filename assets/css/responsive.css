@@ -106,6 +106,9 @@
         display: none;
         border-top: 1px solid #3FBFF3;
     }
+    .awards_carousel {
+        padding: 20px 0;
+    }
     .menu ul { 
         flex-direction: column;
         justify-content: center;
