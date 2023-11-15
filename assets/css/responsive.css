@@ -21,6 +21,9 @@
         margin: 0 auto;
         background: #ffff; 
     }
+    .container{
+        padding: 0 60px;
+    }
 }
 
 
