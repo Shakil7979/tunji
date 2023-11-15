@@ -525,7 +525,7 @@ p{
 }
 
 .single_awards img {
-	width: 48px;
+	width: 48px !important;
 	margin-bottom: 24px;
 }
 
@@ -538,7 +538,16 @@ p{
 	/* height: 200px; */
 	overflow: hidden;
 	transition: 0.5s;
-	height: 100%;
+	height: auto !important;
+}
+
+.single_main_awards{
+	height: 100% !important;
+	background-color: red;
+}
+
+.awards_carousel{ 
+	padding: 92px 0;
 }
 
 .single_awards_header {

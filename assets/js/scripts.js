@@ -49,6 +49,22 @@ $(document).ready(function(){
             }
         }
     }); 
+    $(".awards_carousel").owlCarousel({
+        loop:true, 
+        nav:false,
+        dots:false,
+        items:3,
+        margin: 40,
+        autoplay:true,  
+        responsive:{
+            0:{ 
+                items:1,
+            }, 
+            767:{ 
+                items:3,
+            }
+        }
+    }); 
 
     $(document).on('click','.ex_btn',function(){
         $('.ex_btn').removeClass('active'); 
