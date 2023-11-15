@@ -8,6 +8,22 @@
 }
 
 
+
+
+@media all and (min-width: 1400px) {
+    body{
+        background: #DDDDDD;
+    }
+    
+    .main_container {
+        width: 100%;
+        max-width: 1365px;
+        margin: 0 auto;
+        background: #ffff; 
+    }
+}
+
+
 @media all and (max-width: 1400px) {
     .single_awards h4 { 
         font-size: 22px; 
