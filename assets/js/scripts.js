@@ -21,7 +21,7 @@ $(document).ready(function(){
         dots:false,
         items:3,
         margin: 20,
-        autoplay:true, 
+        // autoplay:true, 
         navText : ["<p class='feature_navs'><i class='fa fa-arrow-left'></i>PREVIOUS</p>","<p class='feature_navs'>NEXT<i class='fa fa-arrow-right'></i></p>"],
         responsive:{
             0:{ 

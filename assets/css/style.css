@@ -233,6 +233,14 @@ p{
 	width: 70%;
 }
 
+.banenr_desktop_carousel{ 
+	display: block;
+}
+
+.banenr_mobile_carousel{
+	display: none;
+}
+
 .banner_item {
 	width: 90%;
 	margin: 0 0 0 auto;

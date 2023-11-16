@@ -128,6 +128,16 @@
         display: none;
         border-top: 1px solid #3FBFF3;
     }
+    .banenr_desktop_carousel{ 
+        display: none;
+    }
+    .banenr_mobile_carousel {
+        display: block;
+        padding-bottom: 35px;
+    }
+    .banner P {
+        margin: 14px auto 0px auto; 
+    }
     .awards_carousel {
         padding: 20px 0;
     }
@@ -160,9 +170,7 @@
     }
     .banner {
         text-align: center;
-    }
-    .banner P { 
-        margin: 24px auto 26px auto;
+        padding-bottom: 50px;
     }
     .banner_btn { 
         justify-content: center;
@@ -289,8 +297,7 @@
     .banner H2 {
         font-size: 28px;
     }
-    .banner P {
-        margin: 14px auto 36px auto;
+    .banner P { 
         font-size: 14px;
     }
     .banner_btn { 
